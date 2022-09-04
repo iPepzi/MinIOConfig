@@ -1,5 +1,6 @@
 # MinIO Config
 
+สร้างและแก้ไขไฟล์ /etc/default/minio
 ```
 MINIO_VOLUMES="/mnt/data"
 MINIO_OPTS="--certs-dir /root/ssl/ --address domain.local:443 --console-address domain.local:9001"
