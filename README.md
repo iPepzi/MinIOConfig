@@ -8,7 +8,7 @@ MINIO_ROOT_USER=[กำหนด user root]
 MINIO_ROOT_PASSWORD=[กำหนด password root]
 ```
 
-allow 443 port
+ให้ MinIO สามารถใช้งาน port 443 ได้ ถ้าไม่ทำจะ start service ไม่ได้
 ```
 sudo setcap 'cap_net_bind_service=+ep' /usr/local/bin/minio
 ```
