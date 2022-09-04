@@ -2,10 +2,10 @@
 
 สร้างและแก้ไขไฟล์ /etc/default/minio
 ```
-MINIO_VOLUMES="/mnt/data"
+MINIO_VOLUMES="[กำหนด path สำหรับเก็บข้อมูล]"
 MINIO_OPTS="--certs-dir /root/ssl/ --address domain.local:443 --console-address domain.local:9001"
-MINIO_ROOT_USER=admin
-MINIO_ROOT_PASSWORD=12345678
+MINIO_ROOT_USER=[กำหนด user root]
+MINIO_ROOT_PASSWORD=[กำหนด password root]
 ```
 
 allow 443 port
